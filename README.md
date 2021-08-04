@@ -1,4 +1,4 @@
-# Fast free fermion compiler (FFFC or F3C)
+# Fast free fermion compiler (FFFC or F3C) [![DOI](https://zenodo.org/badge/392749884.svg)](https://zenodo.org/badge/latestdoi/392749884)
 
 <p align="center"><img src="doc/doxygen/F3C.png?raw=true" /></p>
 
