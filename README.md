@@ -26,26 +26,26 @@ and is compatible with MATLAB R2018a or newer. It uses the
 
 2. Add all files from qclab directory to MATLAB path to install F3C:
 
-		addpath(f3croot);
-		savepath;
+                addpath(f3croot);
+                savepath;
 
 3. Run tests in MATLAB:
-		
-		cd test/
-		runTests.m
+                
+                cd test/
+                runTests.m
  
 4. Generate documentation with doxygen. Requires [doxygen](https://www.doxygen.nl/index.html) and [doxymatlab](https://github.com/simgunz/doxymatlab). Adjust tags `FILTER_PATTERNS` and `FILTER_SOURCE_PATTERNS`  in `doxygen/Doxyfile.dox` to local `m2cpp.pl` script.
-	
-		cd doc/doxygen/
-		doxygen Doxyfile.dox
+        
+                cd doc/doxygen/
+                doxygen Doxyfile.dox
 
 
 ## References
 The F3C compiler is based on:
-- An Algebraic Quantum Circuit Compression Algorithm for Hamiltonian Simulation, Daan Camps, 
+- [An Algebraic Quantum Circuit Compression Algorithm for Hamiltonian Simulation](https://arxiv.org/abs/2108.03283), Daan Camps, 
 Efekan K&ouml;ck&uuml;, Lindsay Bassman, Wibe A. de Jong, Alexander F. Kemper, and 
 Roel Van Beeumen (2021) 
-- Algebraic Compression of Quantum Circuits for Hamiltonian Evolution, Efekan K&ouml;ck&uuml;,
+- [Algebraic Compression of Quantum Circuits for Hamiltonian Evolution](https://arxiv.org/abs/2108.03282), Efekan K&ouml;ck&uuml;,
 Daan Camps, Lindsay Bassman, J. K. Freericks, Wibe A. de Jong, Roel Van Beeumen, and 
 Alexander F. Kemper (2021) 
 
